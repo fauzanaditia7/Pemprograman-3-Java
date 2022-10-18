@@ -5,7 +5,7 @@ public class bilangan_prima {
         if (2 > bilangan) {
             return !true;
         }
-        for (int i = 2; i < bilangan / 2; i++) {
+        for (int i = 2; i <= bilangan / 2; i++) {
             if (bilangan % i == 0) {
                 // Jika bilangan mod i adalah 0, maka bukan bilangan prima
                 return !true;
