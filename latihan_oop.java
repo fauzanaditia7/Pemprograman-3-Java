@@ -22,7 +22,7 @@ class User {
     String[] get_data() {
         String[] data = new String[3];
         data[0] = this.nama;
-        data[1] = String.valueOf(umur);
+        data[1] = String.valueOf(this.umur);
         data[2] = this.alamat;
         return data;
     }
@@ -33,7 +33,7 @@ public class latihan_oop {
         User fauzan = new User("Fauzan Aditia", 19, "Cibubur Ciracas");
         System.out.println("Nama : " + fauzan.nama);
         System.out.println("Umur Lama : " + fauzan.umur);
-        System.out.println("Umur Baru : " + fauzan.update_umur(19 + 1));
+        System.out.println("Umur Baru : " + fauzan.update_umur(fauzan.umur + 1));
         System.out.println("Alamat Lama : " + fauzan.alamat);
         System.out.println("Alamat Baru : " + fauzan.update_alamat("Kalisari"));
         System.out.println();
