@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class mahasiswa {
+public class data_mahasiswa {
     public static void main(String[] args) {
         BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
         try {
